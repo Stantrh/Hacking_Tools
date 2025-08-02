@@ -1,6 +1,6 @@
 # 🖼️ Steganography
 
-> Tools, writeups and resources related to steganography.
+> Tools, writeups and resources related to hiding or extracting information from media files.
 
 ## 🛠️ Tools
 - 
