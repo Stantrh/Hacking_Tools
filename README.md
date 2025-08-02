@@ -6,17 +6,17 @@ Useful for learning, solving CTF challenges, and building your personal toolbox.
 
 ## 📚 Categories
 
-- [🖥️ App - System](./app-system.md)
-- [📜 App - Script](./app-script.md)
-- [🤖 Artificial Intelligence](./ai.md)
-- [🔐 Cryptanalysis](./cryptanalysis.md)
-- [🕵️ Forensics](./forensics.md)
-- [🧩 MISC](./misc.md)
-- [🌐 Network](./network.md)
-- [🌍 OSINT](./osint.md)
-- [🧬 Reverse Engineering](./re.md)
-- [🖼️ Steganography](./steganography.md)
-- [🕸️ Web Exploitation](./web.md)
+- [🖥️ App - System](./docs/app-system.md)
+- [📜 App - Script](./docs/app-script.md)
+- [🤖 Artificial Intelligence](./docs/ai.md)
+- [🔐 Cryptanalysis](./docs/cryptanalysis.md)
+- [🕵️ Forensics](./docs/forensics.md)
+- [🧩 MISC](./docs/misc.md)
+- [🌐 Network](./docs/network.md)
+- [🌍 OSINT](./docs/osint.md)
+- [🧬 Reverse Engineering](./docs/re.md)
+- [🖼️ Steganography](./docs/steganography.md)
+- [🕸️ Web Exploitation](./docs/web.md)
 
 
 ## ⚠️ Disclaimer
