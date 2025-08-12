@@ -83,6 +83,21 @@ sudo apt install -y binutils # strings, objdump, readelf..
 ```
 
 #### WSL file mounting
+To work on the exact same file as on the Windows host (no copy), you have two options:
+
+1. Work directly under `/mnt/c`
+```sh
+# Example
+cd "/mnt/c/Users/<USERNAME>/Desktop/Reverse/crackmes/basic_crackme"
+```
+
+2. Create a shortcut with a symli
+```sh
+mkdir -p ~/re
+ln -s "/mnt/c/Users/<USERNAME>/Desktop/Reverse/crackmes/basic_crackme" ~/re/basic_crackme-win
+ls -l ~/re/basic_crackme-win      # → symlink to C:
+file ~/re/basic_crackme-win/basic_crackme
+```
 
 ### WinDbg
 #### Powershell install
