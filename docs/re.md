@@ -9,6 +9,7 @@
 - [WinDbg](https://learn.microsoft.com/windows-hardware/drivers/debugger/) : Microsoft debugger (symbols, NT APIs).
 - [DnSpy](https://github.com/dnspyex/dnSpy) : .NET decompiler/debugger + IL editor.
 - [JADX](https://github.com/skylot/jadx) : Dex/Apk/Jar → Java (CLI + GUI).
+- [GDRETools](https://github.com/GDRETools/gdsdecomp) : Godot RE Tools.
 
 
 ## 📚 Articles / Writeups
@@ -116,4 +117,10 @@ winget install -e --id dnSpyEx.dnSpy
 #### Powershell install
 ```
 winget install -e --id Skylot.jadx
+```
+
+### GDRE Tools
+#### Powershell install
+```
+winget install --id=GDRETools.gdsdecomp -e
 ```
