@@ -10,6 +10,7 @@
 - [DnSpy](https://github.com/dnspyex/dnSpy) : .NET decompiler/debugger + IL editor.
 - [JADX](https://github.com/skylot/jadx) : Dex/Apk/Jar → Java (CLI + GUI).
 - [GDRETools](https://github.com/GDRETools/gdsdecomp) : Godot RE Tools.
+- [Godot Unpacker](https://github.com/tehskai/godot-unpacker) : Retrieves Godot project from .exe.
 
 
 ## 📚 Articles / Writeups
