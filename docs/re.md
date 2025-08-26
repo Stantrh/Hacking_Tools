@@ -124,3 +124,25 @@ winget install -e --id Skylot.jadx
 ```
 winget install --id=GDRETools.gdsdecomp -e
 ```
+
+#### Powershell run
+```
+# 1) Find the .pck installed by winget
+$pack = Get-ChildItem -Recurse -ErrorAction SilentlyContinue `
+  -Path "$env:LOCALAPPDATA\Microsoft\WinGet\Packages",
+        "$env:ProgramFiles",
+        "$env:ProgramFiles(x86)",
+        "$env:LOCALAPPDATA" `
+  -Filter gdre_tools.pck |
+  Select-Object -First 1
+
+if (-not $pack) { Write-Host "gdre_tools.pck introuvable"; return }
+
+$pack.FullName
+$dir = Split-Path $pack.FullName
+
+# 2) Launch GUI from his folder (where the .pck is)
+Set-Location $dir
+.\gdre_tools.exe
+```
+
